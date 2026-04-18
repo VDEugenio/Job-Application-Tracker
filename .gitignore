@@ -1,0 +1,23 @@
+# Secrets & credentials — NEVER commit these
+backend/.env
+backend/credentials.json
+backend/token.json
+backend/tracker.db
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+**/__pycache__/
+**/*.pyc
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
